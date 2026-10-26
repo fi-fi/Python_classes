@@ -8,9 +8,11 @@ def nondiv_by_3_v1(n):
 
 
 def nondiv_by_3_v2(n):
-    while (i := range(n + 1)) % 3 != 0:
-        print(i)
+    i = 0
+    while i in range(n + 1):
+        if i % 3 != 0:
+            print("%2d\n" % i)
+        i += 1
 
 
-nondiv_by_3_v1(30)
-nondiv_by_3_v2(30)
+assert (nondiv_by_3_v1(6)) == "1\n2\n4\n5\n"

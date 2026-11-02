@@ -5,5 +5,4 @@ def revert(L, left, right):
     return L
 
 
-print(revert([1, 4, 5, 6, 3], 2, 4))
 assert revert([1, 4, 5, 6, 3], 2, 4) == [1, 4, 3, 6, 5]

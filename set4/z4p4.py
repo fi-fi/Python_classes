@@ -8,4 +8,7 @@ def fibonacci(n):
     return a
 
 
-print([fibonacci(n) for n in range(10)])
+assert fibonacci(0) == 1
+assert fibonacci(1) == 1
+assert fibonacci(2) == 2
+assert fibonacci(3) == 3

@@ -7,4 +7,7 @@ def factorial(n):
     return a
 
 
-print([factorial(i) for i in range(10)])
+assert factorial(3) == 6
+assert factorial(4) == 24
+assert factorial(0) == 1
+assert factorial(1) == 1

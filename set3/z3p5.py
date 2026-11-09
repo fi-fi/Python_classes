@@ -1,4 +1,13 @@
+# ---------------------- PYTHON-----------------------
+# Set 3
+# Author: Filip Kowalski
+#
+# Problem 5
+
+
 def make_ruler(x: int):
+    """This function displays a ruler of given
+    length, up to 12."""
     if x > 12:
         print("Ruler is too long to be shown!")
         return

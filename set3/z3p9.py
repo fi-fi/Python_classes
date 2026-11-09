@@ -1,4 +1,13 @@
+# ---------------------- PYTHON-----------------------
+# Set 3
+# Author: Filip Kowalski
+#
+# Problem 9
+
+
 def seq_sum(l):
+    """This function sums through each element
+    of a given list of iterables."""
     return [sum(a) for a in l]
 
 

@@ -1,4 +1,13 @@
+# ---------------------- PYTHON-----------------------
+# Set 3
+# Author: Filip Kowalski
+#
+# Problem 6
+
+
 def makedrawing(x, y):
+    """This function displays a drawing composed
+    of rectangles, of a given dimensions x and y."""
     cross = "+"
     verticalbar = "|"
 

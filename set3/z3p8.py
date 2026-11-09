@@ -1,4 +1,13 @@
+# ---------------------- PYTHON-----------------------
+# Set 3
+# Author: Filip Kowalski
+#
+# Problem 8
+
+
 def findcommon(a, b):
+    """This function finds common elements in two
+    iterables, and prints a list of them."""
     sa = set(a)
     sb = set(b)
     if len(sa) < len(sb):
@@ -8,6 +17,8 @@ def findcommon(a, b):
 
 
 def merge(a, b):
+    """This function merges two lists into one,
+    without repetitions."""
     sa = set(a)
     sb = set(b)
     l1 = [i for i in sa]

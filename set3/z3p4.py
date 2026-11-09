@@ -1,3 +1,10 @@
+# ---------------------- PYTHON-----------------------
+# Set 3
+# Author: Filip Kowalski
+#
+# Problem 4
+
+
 def my_cube():
     """This function returns inserted number cubed,
     and is protected from inserting strings"""

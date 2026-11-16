@@ -22,8 +22,6 @@ class Point:
         return self.x == other.x and self.y == other.y
 
     def __ne__(self, other):
-        if not isinstance(other, Point):
-            return NotImplemented
         return not self == other
 
     # Algebra
@@ -70,9 +68,9 @@ class TestPoint(unittest.TestCase):
         self.assertRaises(TypeError, Point, "a", "b")
 
     def test_str(self):
-        self.assertEqual(self.myzero.__str__(), "(0, 0)")
-        self.assertEqual(self.myx.__str__(), "(1, 0)")
-        self.assertEqual(Point(2.85, 3.04).__str__(), "(2.85, 3.04)")
+        self.assertEqual(str(self.myzero), "(0, 0)")
+        self.assertEqual(str(self.myx), "(1, 0)")
+        self.assertEqual(str(Point(2.85, 3.04)), "(2.85, 3.04)")
 
     def test_repr(self):
         self.assertEqual(self.myzero.__repr__(), "Point(0, 0)")
